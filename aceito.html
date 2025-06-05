@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agora é Oficial! ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            padding: 20px;
+            overflow: hidden;
+            position: relative;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #c71585;
+            margin-top: 50px;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 20px;
+            margin: 20px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        .emoji {
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        .floating {
+            position: absolute;
+            font-size: 30px;
+            animation: floatUp 10s linear infinite;
+            opacity: 0.8;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) scale(1);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-10vh) scale(1.2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>QUE BOM QUE ACEITOU 🔫❤️</h1>
+
+    <p>
+        Agora, você vai ter que me aturar para sempre! 😍 <br>
+
+        Te garanto, da minha parte: fidelidade, amor, carinho, e o compromisso de sempre te fazer dar esse sorriso mais
+        perfeito do mundo.
+        Todos os dias da minha vida, vou te lembrar o quanto você é incrível e perfeita, meu amor! ❤️
+
+        <br><br>
+
+        <strong>EU TE AMO MUITO MEU AMOR ❤️</strong>
+    </p>
+
+    <div class="emoji">💑💞💍</div>
+
+    <img src="photo/anime.png" alt="Nós dois">
+    <img src="photo/casa.jpg" alt="Nós dois">
+
+    <!-- Emojis flutuando -->
+    <div class="floating" style="left: 10%;">❤️</div>
+    <div class="floating" style="left: 30%; animation-delay: 2s;">💖</div>
+    <div class="floating" style="left: 50%; animation-delay: 4s;">💘</div>
+    <div class="floating" style="left: 70%; animation-delay: 6s;">💕</div>
+    <div class="floating" style="left: 90%; animation-delay: 8s;">💞</div>
+
+</body>
+
+</html>

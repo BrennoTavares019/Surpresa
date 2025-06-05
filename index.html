@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Algo Especial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            padding: 20px;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        h1 {
+            color: #c71585;
+            margin-top: 30px;
+            font-size: 6vw;
+        }
+
+        p {
+            font-size: 4.5vw;
+            color: #333;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        .fotos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .fotos img {
+            width: 30vw;
+            max-width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #c71585;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 5vw;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .botao:active {
+            transform: scale(0.95);
+        }
+
+        .floating {
+            position: absolute;
+            font-size: 8vw;
+            animation: floatUp 10s linear infinite;
+            opacity: 0.8;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) scale(1);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-10vh) scale(1.2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PARA A MAIOR PANGARÉ DO MUNDO</h1>
+
+    <p>
+        Desde quando te conheci, minha vida ganhou mais cor (principalmente o ROSA).<br>
+        Obrigado por sempre querer estar perto de mim, pelo apoio e por todos os momentos que já vivemos, e por todos
+        aqueles que ainda vamos viver juntos.<br>
+        Você é uma menina incrível, linda e, o melhor de tudo: <br>😍MEU MOREQUINHOOOOOO😍<br>
+        Te conhecer foi a melhor coisa que poderia ter acontecido na minha vida.<br>
+        Então… já que demorei demais, tenho one question for you!!<br><br>
+
+        👇👇👇Aperta o botão ali embaixo RÁPIDOOOOO!!!👇👇👇👇
+    </p>
+
+
+    <div class="fotos">
+        <img src="photo/bibi.jpg" alt="Foto nossa">
+        <img src="photo/simpson.png" alt="Foto nossa">
+        <img src="photo/euu.jpg" alt="Foto nossa">
+    </div>
+
+    <a href="pedido.html" class="botao">APERTA LOGOOOOO ❤️</a>
+
+    <!-- Emojis flutuando -->
+    <div class="floating" style="left: 10%;">💖</div>
+    <div class="floating" style="left: 30%; animation-delay: 2s;">💕</div>
+    <div class="floating" style="left: 50%; animation-delay: 4s;">💘</div>
+    <div class="floating" style="left: 70%; animation-delay: 6s;">❤️</div>
+    <div class="floating" style="left: 90%; animation-delay: 8s;">💞</div>
+
+</body>
+
+</html>
